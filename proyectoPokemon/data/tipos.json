@@ -1,0 +1,54 @@
+{
+    "Fuego":{
+        "debilidades": ["Agua", "Tierra"],
+        "fortalezas": ["Planta"],
+        "inmunidades": []
+    },
+    "Agua":{
+        "debilidades": ["Planta", "Electrico"],
+        "fortalezas": ["Fuego", "Tierra"],
+        "inmunidades": []
+    },
+
+    "Planta": {
+        "debilidades": ["Fuego", "Volador"],
+        "fortalezas": ["Agua", "Tierra"],
+        "inmunidades": []
+    },
+
+    "Electrico": {
+        "debilidades": ["Tierra"],
+        "fortalezas": ["Agua", "Volador"],
+        "inmunidades": []
+    },
+
+    "Tierra": {
+        "debilidades": ["Agua", "Planta"],
+        "fortalezas": ["Electrico", "Fuego"],
+        "inmunidades": ["Electrico"]
+    },
+
+    "Volador": {
+        "debilidades": ["Electrico"],
+        "fortalezas": ["Planta", "Lucha"],
+        "inmunidades": ["Tierra"]
+    },
+
+    "Lucha": {
+        "debilidades": ["Volador"],
+        "fortalezas": ["Normal", "Tierra"],
+        "inmunidades": []
+    },
+
+    "Fantasma": {
+        "debilidades": [],
+        "fortalezas": [],
+        "inmunidades": ["Normal", "Lucha"]
+    },
+
+    "Normal": {
+        "debilidades": ["Lucha"],
+        "fortalezas": [],
+        "inmunidades": []
+    }
+}

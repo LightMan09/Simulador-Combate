@@ -1,0 +1,22 @@
+{
+    "Llamarada":{
+        "Tipo": "Fuego",
+        "Potencia": 90,
+        "Precision": 80 
+    },
+    "Hidropulso":{
+        "Tipo": "Agua",
+        "Potencia": 80,
+        "Precision": 80
+    },
+    "Gigadrenado":{
+        "Tipo": "Planta",
+        "Potencia": 85,
+        "Precision": 90
+    },
+    "Placaje": {
+        "Tipo": "Normal",
+        "Potencia": 40,
+        "Precision": 90
+    }
+}
