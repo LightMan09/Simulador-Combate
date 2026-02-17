@@ -1,0 +1,65 @@
+{
+    "Llamarada":{
+        "Tipo": "Fuego",
+        "Categoria": "Especial",
+        "Potencia": 110,
+        "Precision": 85,
+        "Pp": 5,
+        "Efecto-Secundario":{
+            "Probabilidad": 100,
+            "Estado": "Quemar"
+        },
+        "Prioridad": 0,
+        "Contacto": "No"
+        
+    },
+    "Hidropulso":{
+        "Tipo": "Agua",
+        "Categoria":"Especial",
+        "Potencia": 60,
+        "Precision": 100,
+        "Pp": 20,
+        "Efecto-Secundario": {
+            "Probabilidad": 20,
+            "Estado": "Confusion"
+        },
+        "Prioridad": 0,
+        "Contacto":"No"
+    },
+
+    "Gigadrenado":{
+        "Tipo": "Planta",
+        "Categoria":"Especial",
+        "Potencia": 75,
+        "Precision": 100,
+        "Pp":10,
+        "Efecto-Secundario": {
+            "Estado": "Curacion"
+        },
+        "Prioridad":0,
+        "Contacto":"No"
+    },
+    "Placaje": {
+        "Tipo": "Normal",
+        "Categoria": "Fisico",
+        "Potencia": 40,
+        "Precision": 100,
+        "Pp":35,
+        "Efecto-Secundario": null,
+        "Prioridad":0,
+        "Contacto": "Si"
+    },
+    "Rayo":{
+        "Tipo": "Electrico",
+        "Categoria":"Especial",
+        "Potencia": 90,
+        "Precision": 100,
+        "Pp": 15,
+        "Efecto-Secundario" : {
+            "Probabilidad" : 10,
+            "Estado": "Paralizar"
+        },
+        "Prioridad": 0,
+        "Contacto":"No"
+    }
+}

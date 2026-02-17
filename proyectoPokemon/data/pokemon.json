@@ -1,0 +1,33 @@
+{
+    "Charizard": {
+        "Tipo": ["Fuego", "Volador"],
+        "Ps": 360,
+        "Ataque-Fisico":293,
+        "Defensa-Fisico":280,
+        "Ataque-Especial":348,
+        "Defensa-Especial":295,
+        "Velocidad":328,
+        "Ataques":["Placaje","Llamarada"]
+    },
+    "Blastoise":{
+        "Tipo": ["Agua"],
+        "Ps": 362,
+        "Ataque-Fisico": 291,
+        "Defensa-Fisico": 328,
+        "Ataque-Especial": 295,
+        "Defensa-Especial": 339,
+        "Velocidad": 280,
+        "Ataques": ["Hidropulso", "Placaje"]
+    },
+    "Venusaur":{
+        "Tipo": ["Planta", "Veneno"],
+        "Ps": 364,
+        "Ataque-Fisico": 289,
+        "Defensa-Fisico": 291,
+        "Ataque-Especial": 328,
+        "Defensa-Especial": 328,
+        "Velocidad": 284,
+        "Ataques": ["Placaje", "Gigadrenado"]
+    }
+
+}
